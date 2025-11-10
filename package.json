@@ -10,7 +10,8 @@
     "lint:prettier": "prettier --check .",
     "lint:knip": "knip",
     "lint:jscpd": "jscpd --config jscpd.config.json",
-    "lint:full": "yarn lint && yarn lint:prettier && yarn lint:knip && yarn lint:jscpd"
+    "lint:full": "yarn lint && yarn lint:prettier && yarn lint:knip && yarn lint:jscpd",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "next": "16.0.0",
@@ -22,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "clsx": "^2.1.1",
     "eslint": "^9",
     "eslint-config-next": "16.0.0",
     "eslint-config-prettier": "^10.1.8",
@@ -29,6 +31,7 @@
     "knip": "^5.66.3",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.7.1",
+    "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
