@@ -115,10 +115,10 @@ Example:
 
 ```yaml
 ---
-description: 'State machine for campaign lifecycle.'
-purpose: 'Defines valid transitions and lock behavior.'
-status: 'ACTIVE'
-date: '2026-03-03'
+description: "State machine for campaign lifecycle."
+purpose: "Defines valid transitions and lock behavior."
+status: "ACTIVE"
+date: "2026-03-03"
 ---
 ```
 

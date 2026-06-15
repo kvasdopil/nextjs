@@ -38,5 +38,6 @@ When the task is complete, process all lessons learned and insights files:
 
 This creates a self-improving documentation cycle grounded in practice.
 
-## Tools 
+## Tools
+
 Local cli tools like `gh`, `gcloud`, `vercel` and `supabase` are set up and configured. Use them when necessary.
